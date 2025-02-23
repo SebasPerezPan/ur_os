@@ -1,0 +1,11 @@
+Basic Methods
+
+
+System Os Methods:
+
+public boolean isSimulationFinished()
+
+public void run()
+
+public void showProcesses()
+

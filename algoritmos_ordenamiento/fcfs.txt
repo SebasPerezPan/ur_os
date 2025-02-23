@@ -1,0 +1,10 @@
+Revisar (menor Set_time_init, Cola)
+Lo añade a la lista.
+Ejecuta sus ciclos.
+caso 1: CPU
+Process Burst de CPU
+caso 2: I/O 
+ProcessBurst de I/O
+Instrucción siguiente.
+
+Bis
