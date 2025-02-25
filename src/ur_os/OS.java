@@ -19,7 +19,15 @@ public class OS {
     private static int process_count = 0;
     SystemOS system;
     CPU cpu;
+    // TODO: Change the scheduler type
     public final SchedulerType SCHEDULER_TYPE = SchedulerType.FCFS;
+    // FCFS,
+    // SJF_NP,
+    // SJF_P,
+    // RR,
+    // PRIORITY,
+    // MFQ,
+    // FAIR
     
     public OS(SystemOS system, CPU cpu, IOQueue ioq){
         rq = new ReadyQueue(this);

@@ -20,7 +20,9 @@ public class FCFS extends Scheduler{
         if(!processes.isEmpty() && cpuEmpty)
         {        
             Process p = processes.get(0);
+            // p.getPBL();
             processes.remove();
+            p.getTotalExecutionTime();
             os.interrupt(InterruptType.SCHEDULER_RQ_TO_CPU, p);
         }
     }

@@ -6,9 +6,7 @@
 package ur_os;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
 
 /**
  *
@@ -147,7 +145,7 @@ public class SystemOS implements Runnable{
         p.addBurst(temp);
         temp = new ProcessBurst(21,ProcessBurstType.CPU);    
         p.addBurst(temp);
-        p.setTime_init(0);
+        p.setTime_init(2);
         p.setPid(0);
         processes.add(p);
         

@@ -4,16 +4,9 @@
     // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${workspaceFolder}/src/ur_os/UR_OS.java",
-        },
-        {
-            "type": "java",
-            "name": "debbug File",
+            "name": "UR_OS debbug",
             "request": "launch",
             "mainClass": "${workspaceFolder}/src/ur_os/UR_OS.java",
             
