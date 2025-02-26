@@ -13,8 +13,8 @@ for Process as p in Processes:
 	elif (temp == min_BTR):
 		Tie-Breaker.
 
-processes.remove(p) // Removemos.
-os.InterruptHandler(RQ_TO_CPU, p) // Ejecutamos.
+processes.remove(min_BTR_process) // Removemos.
+os.InterruptHandler(RQ_TO_CPU, min_BTR_process) // Ejecutamos.
 
 Estructura Base:
 
